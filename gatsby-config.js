@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://skillsboy.github.io/gatsby-todo-app",
+    siteUrl: "https://skillsboy.github.io/gatsbyjs-todo-list",
     title: "Gatsby todo app",
   },
   plugins: [
@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '/gatsby-todo-app',
+  pathPrefix: '/gatsbyjs-todo-list',
 };
