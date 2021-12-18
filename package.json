@@ -10,12 +10,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^4.3.0",
+    "gatsby-plugin-manifest": "^4.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
